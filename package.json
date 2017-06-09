@@ -1,0 +1,29 @@
+{
+  "name": "no-need-to-buy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrisonChow/no-need-to-buy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrisonChow/no-need-to-buy/issues"
+  },
+  "homepage": "https://github.com/HarrisonChow/no-need-to-buy#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.0.0"
+  }
+}
